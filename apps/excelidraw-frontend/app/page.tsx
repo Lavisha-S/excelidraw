@@ -39,7 +39,7 @@ function App() {
       <section className="py-24 bg-muted/50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
-            <Card className="p-6 border-2 hover:border-primary transition-colors">
+            <Card className="p-6 border-2 hover:border-primary transition-colors" title={""}  href={""}>
               <div className="flex items-center gap-4">
                 <div className="p-2 rounded-lg bg-primary/10">
                   <Share2 className="h-6 w-6 text-primary" />
@@ -51,7 +51,7 @@ function App() {
               </p>
             </Card>
 
-            <Card className="p-6 border-2 hover:border-primary transition-colors">
+            <Card className="p-6 border-2 hover:border-primary transition-colors" title={""} href={""}>
               <div className="flex items-center gap-4">
                 <div className="p-2 rounded-lg bg-primary/10">
                   <Users2 className="h-6 w-6 text-primary" />
@@ -63,7 +63,7 @@ function App() {
               </p>
             </Card>
 
-            <Card className="p-6 border-2 hover:border-primary transition-colors">
+            <Card className="p-6 border-2 hover:border-primary transition-colors" title={""} href={""}>
               <div className="flex items-center gap-4">
                 <div className="p-2 rounded-lg bg-primary/10">
                   <Sparkles className="h-6 w-6 text-primary" />
